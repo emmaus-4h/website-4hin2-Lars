@@ -3,7 +3,7 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-color: #EEEEEE;  
+    background-color: rgb(12, 156, 84); 
     
     color: #303030;
     font: Verdana, Arial, Sans-Serif;
@@ -23,7 +23,7 @@ article {
 
 
 header {
-    color: skyblue;
+    color: white;
     text-align: center;
 }
 
@@ -46,12 +46,12 @@ img.zweefLinks {
 }
 
 a {
-    color: skyblue;
+    color: white;
     text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: underlined;
 }
 
 
