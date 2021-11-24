@@ -1,3 +1,7 @@
+* {
+  border: 1px dotted black;
+}
+
 /* Basislayout */
 
 html, body {
@@ -36,9 +40,10 @@ footer {
 
 /* specifieke stijlen */
 
-img.zweefLinks {
+img.rlscherm {
     float: left;
     margin-right: 15px;
+    width: 250px;
 }
 
 .smalltext {
