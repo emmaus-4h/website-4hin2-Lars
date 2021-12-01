@@ -49,6 +49,16 @@ img.zweefLinks {
     margin-left: 15px;
     width: 250px;
 }
+img.rlcs {
+    float: left;
+    margin-right: 15px;
+    width: 250px;
+}
+    img.soorten {
+    float: left;
+    margin-right: 15px;
+    width: 250px;}
+
 .smalltext {
     font-size: 0.7em;
 }
