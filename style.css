@@ -1,5 +1,6 @@
 /* Basislayout */
-
+*/
+box-sizing: 
 html, body {
 
  height: 100%;
@@ -8,7 +9,6 @@ html, body {
     
     color: #303030;
     font: Verdana, Arial, Sans-Serif;
-   background-image: url("gras.jpg")
  }
 
 
@@ -43,7 +43,6 @@ img.rlscherm {
     margin-right: 15px;
     width: 250px;
 }
-
 img.zweefLinks {
     float: right;
     margin-left: 15px;
@@ -57,8 +56,23 @@ img.rlcs {
     img.soorten {
     float: left;
     margin-right: 15px;
-    width: 250px;}
-
+    width: 250px;
+}
+    img.rarety {
+    float: right;
+    margin-left: 15px;
+    width: 250px;
+}
+img.sideswipe {
+    float: right;
+    margin-left: 15px;
+    width: 50%;
+}
+img.eigenaar {
+    float: left;
+    margin-right: 15px;
+    width: 250px;
+}
 .smalltext {
     font-size: 0.7em;
 }
