@@ -60,17 +60,27 @@ footer {
  float:right;
  border: 2px solid green;
 }
-
-.tektsrechts {
-  width: 100px;
-  float: right;
-  border: 2px solid blue;
+.box2rechts {
+ width:300px;
+ float:left;
+ border: 2px solid rgb(0, 0, 0);
 }
 
-.tekstlinks {
-  width: calc( 100% - 100px);
-  float: left;
-  border: 2px solid pink;
+.box2links {
+ width: calc( 100% - 300px);
+ float:right;
+ border: 2px solid rgb(255, 255, 255);
+}
+.box3rechts {
+ width:300px;
+ float:left;
+ border: 2px solid rgb(0, 255, 221);
+}
+
+.box3links {
+ width: calc( 100% - 300px);
+ float:right;
+ border: 2px solid rgb(255, 0, 242);
 }
 /* specifieke stijlen */
 
