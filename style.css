@@ -4,13 +4,18 @@
 box-sizing: border-box;
 overflow: hidden;
 margin:0px;
-border: 2px solid red;
+border: 2px dotted red;
 }
 
 html, 
 body {
   height: 100%;
   background-color:rgb(46, 116, 0);
+  background-image: url(afbeeldingen/achterground.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
     color: #ffffff;
     font: Verdana, Arial, Sans-Serif;
  }
@@ -49,6 +54,7 @@ footer {
   background-size: cover;
 }
 
+/* pagina layout */
 .kolomrechts {
  width:300px;
  float:left;
