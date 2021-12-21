@@ -7,6 +7,11 @@ margin:0px;
 border: 2px dotted red;
 }
 
+body {
+  overflow-y: scroll; /*show vertical scrollbars*/
+  overflow-x: scroll; /*show horizontal scrollbar*/
+}
+
 html, 
 body {
   height: 100%;
@@ -29,7 +34,7 @@ main {
 
 
 article {
-    text-align: justify;
+    text-align: helvetica neue;
 }
 
 
@@ -44,88 +49,50 @@ footer {
     padding-bottom: 10px;
 }
 
-.bg {
-  background-image: url("gras.jpg");
-
-  height: 100%;
-
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
 /* pagina layout */
-.kolomrechts {
+.kolomlinks {
  width:300px;
  float:left;
  border: 2px solid yellow;
 }
 
-.kolomlinks {
+.kolomrechts {
  width: calc( 100% - 300px);
  float:right;
  border: 2px solid green;
 }
-.box2rechts {
+.box2links {
  width:300px;
  float:left;
  border: 2px solid rgb(0, 0, 0);
 }
 
-.box2links {
+.box2rechts {
  width: calc( 100% - 300px);
  float:right;
  border: 2px solid rgb(255, 255, 255);
 }
-.box3rechts {
+.box3links {
  width:300px;
  float:left;
  border: 2px solid rgb(0, 255, 221);
 }
 
-.box3links {
+.box3rechts {
  width: calc( 100% - 300px);
  float:right;
  border: 2px solid rgb(255, 0, 242);
 }
 /* specifieke stijlen */
 
-img.zweefLinks {
-    float: right;
-    margin-left: 15px;
-    width: 250px;
-}
-img.rlcs {
-    float: left;
-    margin-right: 15px;
-    width: 250px;
-}
-    img.soorten {
-    float: left;
-    margin-right: 15px;
-    width: 250px;
-}
-    img.rarety {
-    float: right;
-    margin-left: 15px;
-    width: 250px;
-}
-img.sideswipe {
-    float: right;
-    margin-left: 15px;
-    width: 50%;
-}
-img.eigenaar {
-    float: left;
-    margin-right: 15px;
-    width: 250px;
-}
+
 .smalltext {
     font-size: 0.7em;
 }
 
 a {
-    color: white;
+    color: red ;
     text-decoration: none;
 }
 
