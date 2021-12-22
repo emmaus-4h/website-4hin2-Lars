@@ -7,6 +7,9 @@ margin:0px;
 border: 2px dotted red;
 }
 
+.belangrijk {
+  text-shadow: 2px 2px 4px white;
+}
 body {
   overflow-y: scroll; /*show vertical scrollbars*/
   overflow-x: scroll; /*show horizontal scrollbar*/
